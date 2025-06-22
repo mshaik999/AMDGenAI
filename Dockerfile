@@ -1,6 +1,6 @@
 FROM python:3.9-slim
 WORKDIR /app
-COPY requirements.txt requirements.txt
+COPY requirements.txt requirements.txt 
 COPY main.py main.py
 COPY iris_model iris_model
 
